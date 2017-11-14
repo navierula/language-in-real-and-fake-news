@@ -2,4 +2,4 @@
 
 I am working to detect linguistic differences in real vs. fake news articles!
 
-The dataset that I will be using to perform my task can be found [here](https://github.com/BenjaminDHorne/fakenewsdata1):
+The dataset that I will be using to perform my task can be found [here](https://github.com/BenjaminDHorne/fakenewsdata1).
