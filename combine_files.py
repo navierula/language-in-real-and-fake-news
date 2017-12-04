@@ -10,7 +10,7 @@ with open("fake_headlines.txt", "w", encoding="ISO-8859-1") as f:
     for file in filenames:
         with open(file, encoding="ISO-8859-1") as infile:
             # append 'fake' parameter at end of each line
-            f.write(infile.read()+","+"fake"+"\n")
+            f.write(infile.read()+"\t"+"fake"+"\n")
 
 ########################################################################
 
@@ -22,6 +22,6 @@ with open("real_headlines.txt", "w", encoding="ISO-8859-1") as f:
     for file in filenames:
         with open(file, encoding="ISO-8859-1") as infile:
             # append 'fake' parameter at end of each line
-            f.write(infile.read()+","+"real"+"\n")
+            f.write(infile.read()+"\t"+"real"+"\n")
 
 ########################################################################
